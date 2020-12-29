@@ -3,7 +3,7 @@ body{
     color: #373A3C;
 }
 
-.nav_color{
+.nav_color, .section_trabajos{
     background-color: #660066;
 }
 .header_section_img{
