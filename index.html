@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Pablo Diaz">
+    <meta name="descripcion" content="Portafolio">
+    <meta name="keywords" content="prueba deportafolio">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a418e33fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portafolio</title>
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-4 nav_color">
+        <div class="container">
+            <a class="navbar-brand font-weigth-bold ml-2 text-white nav_titulo" href="#">M</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ml-auto nav_menu_collapse">
+
+
+                    <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+
+
+                    <a class="nav-link" href="#sobremi">Sobre mi</a>
+
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+
+                    <a class="nav-link" href="#">Trabajos</a>
+
+                    <a class="nav-link" href="#">Contacto</a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header_section header_section_img" id="inicio">
+        <div class="container text-center header_div">
+            <h2 class="font-weigth-bold text-white display-4 header_text">YO SOY</h2>
+            <h1 class="font-weigth-bold text-white display-4 mt-2 header_text">PABLO</h1>
+
+        </div>
+
+    </header>
+
+    <section class="section_sobre_mi pt-5 mx-5 " id="sobremi">
+        <div class="mx-5">
+            <h4 class="text-center mx-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta qui 
+                laudantium, iusto id eligendi vero in praesentium aliquam, sed ullam aspernatur 
+                maiores incidunt deleniti vel doloribus officia quia beatae!</h4>
+            <hr class="bg-dark mb-4 text-center linea_sobremi">
+        </div>
+        <div class="row pt-3 mx-5">
+            <div class="col-md-6 col-lg-6 text-left">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam 
+                   reprehenderit ducimus rem, natus, in eveniet dignissimos libero dolores 
+                   exercitationem expedita autem mollitia nihil optio recusandae ea ad, hic sapiente.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-6 text-left">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam 
+                    reprehenderit ducimus rem, natus, in eveniet dignissimos libero dolores 
+                    exercitationem expedita autem mollitia nihil optio recusandae ea ad, hic sapiente.</p>
+             </div>
+
+        </div>
+
+    </section>
     
+    <section class="section_experiencia" id="experiencia">
+        <div class="mt-5 container">
+            <h2 class="text-center">Mi experiencia</h2>
+            <hr class="bg-dark mb-4 text-center linea_sobremi">
+
+
+        </div>
+
+        <div class="row mt-5">
+            <article class="col-xs-12 col-md-6 text-center">
+                <i class="fas fa-university fa-10x" data-toggle="popover" title="Estudiante" data-content="Analista programador computacional"></i>
+                <p class="h4 font-weight-bolder mt-2">Estudiante</p>
+                <p class="font-weight-lighter h5">2019-2020</p>
+            </article>
+
+             <article class="col-xs-12 col-md-6 text-center">
+                <i class="fas fa-school fa-10x" data-toggle="popover" title="Certificacion" data-content="En proceso de cerificacion en Desafio Latam"></i>
+                <p class="h4 font-weight-bolder mt-2">Curso</p>
+                <p class="font-weight-lighter h5">2020-2021</p>
+
+             </article>
+
+        </div>
+
+    </section>
+
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </body>
+
 </html>
